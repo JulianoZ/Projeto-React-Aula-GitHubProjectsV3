@@ -6,7 +6,10 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   plugins: [tailwindcss(), react()],
   test: {
-    environment: 'jsdom',
+    environment: 'node',
     globals: true,
+    pool: 'threads',
+    fileParallelism: false,
+    isolate: false,
   },
 })

@@ -5,6 +5,7 @@ import Sobre from "../pages/Sobre"
 import Contato from "../pages/Contato"
 import  Produto from "../pages/Produto"
 import Servico from "../pages/Servico"
+import Calculadora from "../pages/Calculadora"
 
 function SistemaRotas() {
   return (
@@ -13,6 +14,9 @@ function SistemaRotas() {
       <Route path="/sobre" element={<Sobre />} />
       <Route path="/contato" element={<Contato />} />
       <Route path="/servico" element={<Servico />} />
+      <Route path="/produto" element={<Produto />} />
+      <Route path="/calculadora" element={<Calculadora />} />
+      
       
     </Routes>
     
