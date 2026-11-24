@@ -1,5 +1,5 @@
 import { describe, test, expect } from 'vitest'
-import { somar, subtrair, multiplicar, dividir } from './calculadoraCompleta.js'
+import { somar, subtrair, multiplicar, dividir } from './CalculadoraCompleta.js'
 
 describe('CalculadoraCompleta - Testes Unitários', () => {
   test('deve somar dois números corretamente', () => {

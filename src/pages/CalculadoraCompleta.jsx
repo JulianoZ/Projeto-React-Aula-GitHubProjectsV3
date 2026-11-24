@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { somar, subtrair, multiplicar, dividir } from '../utils/calculadoraCompleta'
+import { somar, subtrair, multiplicar, dividir } from   '../utils/CalculadoraCompleta.js'
 
 export default function CalculadoraCompleta() {
   const [n1, setN1] = useState(0)
